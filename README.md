@@ -1,5 +1,5 @@
 # sped-emissor
-Abixo estão as propostas para a criação do emissor,seja para NFe, CTe ou MDFe.
+Abaixo estão as propostas para a criação do emissor,seja para NFe, CTe ou MDFe.
 
 Estas propostas foram discutidas por hangout no dia 29/04/2016, mas ainda são apenas propostas.
 
