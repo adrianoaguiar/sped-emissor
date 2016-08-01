@@ -1,16 +1,37 @@
 # sped-emissor
-Abaixo estão as propostas para a criação do emissor,seja para NFe, CTe ou MDFe.
 
-Estas propostas foram discutidas por hangout no dia 29/04/2016, mas ainda são apenas propostas.
+O sped-emissor é uma estrutura de aplicativos dividido em duas partes distintas e independentes:
+
+- FrontEnd (aplicativo javascript)
+- BackEnd (aplicativo restful)
+
+Abaixo estão as propostas para a criação do emissor, seja para a criação e gestão de:
+
+- NFe
+- CTe
+- MDFe
+
+Estas propostas foram discutidas por hangout no dia 29/04/2016, mas ainda são apenas propostas, pois nenhum código efetivo foi oferecido pelo PULL REQUEST.
 
 
-## FrontEnd (Interface)
+## FrontEnd (Interface) Client->Server
 
 - Html5
 - AngularJS
 - Boostrap
-- jQuery (se necessário)
 - outros (Rest, Oauth2, ...)
+
+
+## FrontEnd (Interface) Desktop
+
+- Electron
+
+## Requisitos para o FrontEnd
+
+- npm
+- Gulp
+- Bower
+
 
 Deve ser formada uma equipe que irá lidar especificamente com o FRONTEND e outra que irá lidar com o backend.
 
@@ -18,10 +39,10 @@ Deve ser formada uma equipe que irá lidar especificamente com o FRONTEND e outr
 
 ## BackEnd
 
-Restful (Lumen - microframework Laravel)
+Restful (Laravel 5.*)
 
 Receber e responder aos dados brutos da interface.
-Essa API restful, conectar o NFePHP diretamente.
+Essa API restful, conecta o sped-nfe, sped-cte, sped-mdfe e sped-da diretamente.
 
 ### Persistência dos dados
 
