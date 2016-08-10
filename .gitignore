@@ -1,1 +1,5 @@
+.idea
 nbproject
+vendor
+node_modules
+resources/bower_components
